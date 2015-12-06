@@ -11,4 +11,5 @@ with open(r'C:\AOC\Day1_Input.txt', encoding='utf-8') as input_file:
             counter -=1
         else:
             break
-    print("Santa on a ", counter, " floor")
+with open(r'C:\AOC\Day1_Output.log', mode='w', encoding='utf-8') as output_file:
+    output_file.write('Santa on a ", counter, " floor')
