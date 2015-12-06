@@ -12,4 +12,4 @@ with open(r'C:\AOC\Day1_Input.txt', encoding='utf-8') as input_file:
         else:
             break
 with open(r'C:\AOC\Day1_Output.log', mode='w', encoding='utf-8') as output_file:
-    output_file.write('Santa on a ", counter, " floor')
+		output_file.write(str(counter))
